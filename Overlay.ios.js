@@ -71,7 +71,3 @@ var styles = StyleSheet.create({
 });
 
 module.exports = Overlay;
-
-var {
-    isVisible,
-} = this.props;
