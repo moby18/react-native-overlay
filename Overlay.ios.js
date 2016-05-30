@@ -8,8 +8,7 @@
 var React = require('react');
 var {View, StyleSheet, requireNativeComponent} = require('react-native');
 
-type
-Props = {
+type Props = {
     isVisible: boolean
 }
 
@@ -72,7 +71,3 @@ var styles = StyleSheet.create({
 });
 
 module.exports = Overlay;
-
-var {
-    isVisible,
-} = this.props;
